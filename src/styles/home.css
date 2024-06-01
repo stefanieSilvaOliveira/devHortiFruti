@@ -1,0 +1,136 @@
+#home{
+    display: flex;
+    min-height: calc(100vh - 91px);
+    position: relative;
+}
+
+#cta{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5%;
+}
+
+#cta .title{
+   font-size: 50px;
+   text-align: center;
+    color: #000;
+}
+
+#cta .title span{
+color: #3AA346;
+}
+
+#cta .description {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color:  #1d1d1d;
+}
+
+#cta_button button{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3AA346;
+    padding: 10px 25px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+#cta_button{
+    margin-left: 220px;
+}
+
+#cta_button button:hover{
+    background-color: #78D23D;
+}
+#cta_button button:active {
+    transform: scale(0.95);
+}
+
+#banner{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 60%;
+    
+}
+
+#banner img{
+    height: 80%;
+    width: fit-content;
+    transform: rotate(-40deg);
+    cursor: pointer;
+    
+}
+
+
+.icons-contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF;
+    margin-top: 10px;
+}
+
+.icons-contacts i{
+   margin-bottom: 10px;
+   font-size: 30px;
+   color: #3AA346;
+}
+
+.icons-contacts h1{
+    margin-bottom: 5px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .shape{
+    background-color: #FFF;
+    width: 28%;
+    height: 60%;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    margin-right: 120px;
+    margin-top: 120px;
+ }
+
+ @media screen and (max-width: 1170px) {
+    #home{
+        min-width: 100%;
+        padding-top: 0px ;
+    }
+
+    #banner,
+    #banner img,
+    #home .shape{
+        display: none;
+    }
+
+    #cta{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    #cta_button button{
+        margin-left: -200px;
+    }
+
+    .icons-contacts{
+        flex-direction: column;
+    }
+ }
+ 
+ 
+ 
+
