@@ -17,5 +17,6 @@ Desenvolvida com as mais modernas tecnologias, página criada para proporcionar 
 
 <b>jQuery</b> para simplificar a manipulação do DOM e tornar o desenvolvimento mais eficiente.
 <br>
+
 <b>ScrollReveal</b> para animações envolventes ao rolar a página, capturando a atenção dos visitantes de maneira elegante.
 
