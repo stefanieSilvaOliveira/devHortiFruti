@@ -1,7 +1,5 @@
 <h1><b>Landing Page Horti Fruti</b></h1>
 <br>
-<br>
-
 <h2>
 Desenvolvida com as mais modernas tecnologias, página criada para proporcionar uma experiência interativa e visualmente atraente para os usuários:</h2>
 <br>
